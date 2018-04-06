@@ -1,0 +1,23 @@
+{
+  "name": "screenshot",
+  "version": "0.0.0",
+  "description": "Take screenshots of webpages",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -f -L"
+  },
+  "author": "Le Roux Bodenstein",
+  "license": "MIT",
+  "dependencies": {
+    "bossy": "^4.0.1",
+    "open": "0.0.5",
+    "puppeteer": "^1.2.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "lab": "^15.4.1"
+  },
+  "bin": {
+    "bump": "./bin/screenshot.js"
+  }
+}
